@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77381C47A46ED79E03A21252 /* Pods_AstrologyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBA9540EE3777C8F648954D /* Pods_AstrologyTests.framework */; };
+		8131A3ED48155C46D5DA12F4 /* Pods_Astrology.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB37177A7DE44F8518173766 /* Pods_Astrology.framework */; };
+		A6E36A67920BF5EF686001D1 /* Pods_Astrology_AstrologyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7E347E01630648EF3E4CFC /* Pods_Astrology_AstrologyUITests.framework */; };
+		C03E9E4F254745AC00746534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9E4E254745AC00746534 /* AppDelegate.swift */; };
+		C03E9E51254745AC00746534 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9E50254745AC00746534 /* SceneDelegate.swift */; };
+		C03E9E53254745AC00746534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9E52254745AC00746534 /* ViewController.swift */; };
+		C03E9E56254745AC00746534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03E9E54254745AC00746534 /* Main.storyboard */; };
+		C03E9E58254745AF00746534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03E9E57254745AF00746534 /* Assets.xcassets */; };
+		C03E9E5B254745AF00746534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03E9E59254745AF00746534 /* LaunchScreen.storyboard */; };
+		C03E9E66254745AF00746534 /* AstrologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9E65254745AF00746534 /* AstrologyTests.swift */; };
+		C03E9E71254745AF00746534 /* AstrologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9E70254745AF00746534 /* AstrologyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C03E9E62254745AF00746534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C03E9E43254745AC00746534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C03E9E4A254745AC00746534;
+			remoteInfo = Astrology;
+		};
+		C03E9E6D254745AF00746534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C03E9E43254745AC00746534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C03E9E4A254745AC00746534;
+			remoteInfo = Astrology;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FA0F370443F567A3C2F407 /* Pods-Astrology.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astrology.release.xcconfig"; path = "Target Support Files/Pods-Astrology/Pods-Astrology.release.xcconfig"; sourceTree = "<group>"; };
+		1CE45A5646FC75DDB358E9E7 /* Pods-AstrologyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstrologyTests.debug.xcconfig"; path = "Target Support Files/Pods-AstrologyTests/Pods-AstrologyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D0851F0F9CD558D97729E37 /* Pods-Astrology-AstrologyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astrology-AstrologyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Astrology-AstrologyUITests/Pods-Astrology-AstrologyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8549B77D8902C471E4EA96F8 /* Pods-Astrology.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astrology.debug.xcconfig"; path = "Target Support Files/Pods-Astrology/Pods-Astrology.debug.xcconfig"; sourceTree = "<group>"; };
+		8C8A3CE560E7FA4F3267151B /* Pods-AstrologyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstrologyTests.release.xcconfig"; path = "Target Support Files/Pods-AstrologyTests/Pods-AstrologyTests.release.xcconfig"; sourceTree = "<group>"; };
+		C03E9E4B254745AC00746534 /* Astrology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astrology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03E9E4E254745AC00746534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C03E9E50254745AC00746534 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C03E9E52254745AC00746534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C03E9E55254745AC00746534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C03E9E57254745AF00746534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C03E9E5A254745AF00746534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C03E9E5C254745AF00746534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03E9E61254745AF00746534 /* AstrologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstrologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03E9E65254745AF00746534 /* AstrologyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrologyTests.swift; sourceTree = "<group>"; };
+		C03E9E67254745AF00746534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03E9E6C254745AF00746534 /* AstrologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstrologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03E9E70254745AF00746534 /* AstrologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrologyUITests.swift; sourceTree = "<group>"; };
+		C03E9E72254745AF00746534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7E347E01630648EF3E4CFC /* Pods_Astrology_AstrologyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Astrology_AstrologyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E886116AB03CD5590DBE9D /* Pods-Astrology-AstrologyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astrology-AstrologyUITests.release.xcconfig"; path = "Target Support Files/Pods-Astrology-AstrologyUITests/Pods-Astrology-AstrologyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DFBA9540EE3777C8F648954D /* Pods_AstrologyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstrologyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB37177A7DE44F8518173766 /* Pods_Astrology.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Astrology.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C03E9E48254745AC00746534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8131A3ED48155C46D5DA12F4 /* Pods_Astrology.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03E9E5E254745AF00746534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77381C47A46ED79E03A21252 /* Pods_AstrologyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03E9E69254745AF00746534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E36A67920BF5EF686001D1 /* Pods_Astrology_AstrologyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088C4EAAA21118DF09435CF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB37177A7DE44F8518173766 /* Pods_Astrology.framework */,
+				CA7E347E01630648EF3E4CFC /* Pods_Astrology_AstrologyUITests.framework */,
+				DFBA9540EE3777C8F648954D /* Pods_AstrologyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2367F57FDC3DCEDFDFCB484 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8549B77D8902C471E4EA96F8 /* Pods-Astrology.debug.xcconfig */,
+				06FA0F370443F567A3C2F407 /* Pods-Astrology.release.xcconfig */,
+				2D0851F0F9CD558D97729E37 /* Pods-Astrology-AstrologyUITests.debug.xcconfig */,
+				D1E886116AB03CD5590DBE9D /* Pods-Astrology-AstrologyUITests.release.xcconfig */,
+				1CE45A5646FC75DDB358E9E7 /* Pods-AstrologyTests.debug.xcconfig */,
+				8C8A3CE560E7FA4F3267151B /* Pods-AstrologyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C03E9E42254745AC00746534 = {
+			isa = PBXGroup;
+			children = (
+				C03E9E4D254745AC00746534 /* Astrology */,
+				C03E9E64254745AF00746534 /* AstrologyTests */,
+				C03E9E6F254745AF00746534 /* AstrologyUITests */,
+				C03E9E4C254745AC00746534 /* Products */,
+				B2367F57FDC3DCEDFDFCB484 /* Pods */,
+				088C4EAAA21118DF09435CF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C03E9E4C254745AC00746534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C03E9E4B254745AC00746534 /* Astrology.app */,
+				C03E9E61254745AF00746534 /* AstrologyTests.xctest */,
+				C03E9E6C254745AF00746534 /* AstrologyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C03E9E4D254745AC00746534 /* Astrology */ = {
+			isa = PBXGroup;
+			children = (
+				C03E9E812547462B00746534 /* Models */,
+				C03E9E822547463100746534 /* Views */,
+				C03E9E832547463800746534 /* Controllers */,
+				C03E9E842547463F00746534 /* Storyboards */,
+				C03E9E852547464800746534 /* Helpers */,
+				C03E9E862547464D00746534 /* Assets */,
+				C03E9E5C254745AF00746534 /* Info.plist */,
+			);
+			path = Astrology;
+			sourceTree = "<group>";
+		};
+		C03E9E64254745AF00746534 /* AstrologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C03E9E65254745AF00746534 /* AstrologyTests.swift */,
+				C03E9E67254745AF00746534 /* Info.plist */,
+			);
+			path = AstrologyTests;
+			sourceTree = "<group>";
+		};
+		C03E9E6F254745AF00746534 /* AstrologyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C03E9E70254745AF00746534 /* AstrologyUITests.swift */,
+				C03E9E72254745AF00746534 /* Info.plist */,
+			);
+			path = AstrologyUITests;
+			sourceTree = "<group>";
+		};
+		C03E9E812547462B00746534 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C03E9E822547463100746534 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C03E9E832547463800746534 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C03E9E52254745AC00746534 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C03E9E842547463F00746534 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C03E9E54254745AC00746534 /* Main.storyboard */,
+				C03E9E59254745AF00746534 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C03E9E852547464800746534 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C03E9E4E254745AC00746534 /* AppDelegate.swift */,
+				C03E9E50254745AC00746534 /* SceneDelegate.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C03E9E862547464D00746534 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C03E9E57254745AF00746534 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C03E9E4A254745AC00746534 /* Astrology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03E9E75254745AF00746534 /* Build configuration list for PBXNativeTarget "Astrology" */;
+			buildPhases = (
+				C269942AB9276F7728E03B5F /* [CP] Check Pods Manifest.lock */,
+				C03E9E47254745AC00746534 /* Sources */,
+				C03E9E48254745AC00746534 /* Frameworks */,
+				C03E9E49254745AC00746534 /* Resources */,
+				B2FFD28AEFFB5983E160A32F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astrology;
+			productName = Astrology;
+			productReference = C03E9E4B254745AC00746534 /* Astrology.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C03E9E60254745AF00746534 /* AstrologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03E9E78254745AF00746534 /* Build configuration list for PBXNativeTarget "AstrologyTests" */;
+			buildPhases = (
+				B2AAB2C52D159ADAD42E6223 /* [CP] Check Pods Manifest.lock */,
+				C03E9E5D254745AF00746534 /* Sources */,
+				C03E9E5E254745AF00746534 /* Frameworks */,
+				C03E9E5F254745AF00746534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C03E9E63254745AF00746534 /* PBXTargetDependency */,
+			);
+			name = AstrologyTests;
+			productName = AstrologyTests;
+			productReference = C03E9E61254745AF00746534 /* AstrologyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C03E9E6B254745AF00746534 /* AstrologyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03E9E7B254745AF00746534 /* Build configuration list for PBXNativeTarget "AstrologyUITests" */;
+			buildPhases = (
+				480723EB5044F85DF2F8031A /* [CP] Check Pods Manifest.lock */,
+				C03E9E68254745AF00746534 /* Sources */,
+				C03E9E69254745AF00746534 /* Frameworks */,
+				C03E9E6A254745AF00746534 /* Resources */,
+				EAFFFA0B2E9E3C423AEE21CB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C03E9E6E254745AF00746534 /* PBXTargetDependency */,
+			);
+			name = AstrologyUITests;
+			productName = AstrologyUITests;
+			productReference = C03E9E6C254745AF00746534 /* AstrologyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C03E9E43254745AC00746534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					C03E9E4A254745AC00746534 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					C03E9E60254745AF00746534 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = C03E9E4A254745AC00746534;
+					};
+					C03E9E6B254745AF00746534 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = C03E9E4A254745AC00746534;
+					};
+				};
+			};
+			buildConfigurationList = C03E9E46254745AC00746534 /* Build configuration list for PBXProject "Astrology" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C03E9E42254745AC00746534;
+			productRefGroup = C03E9E4C254745AC00746534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C03E9E4A254745AC00746534 /* Astrology */,
+				C03E9E60254745AF00746534 /* AstrologyTests */,
+				C03E9E6B254745AF00746534 /* AstrologyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C03E9E49254745AC00746534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03E9E5B254745AF00746534 /* LaunchScreen.storyboard in Resources */,
+				C03E9E58254745AF00746534 /* Assets.xcassets in Resources */,
+				C03E9E56254745AC00746534 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03E9E5F254745AF00746534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03E9E6A254745AF00746534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		480723EB5044F85DF2F8031A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Astrology-AstrologyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2AAB2C52D159ADAD42E6223 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstrologyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2FFD28AEFFB5983E160A32F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Astrology/Pods-Astrology-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Astrology/Pods-Astrology-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Astrology/Pods-Astrology-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C269942AB9276F7728E03B5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Astrology-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAFFFA0B2E9E3C423AEE21CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Astrology-AstrologyUITests/Pods-Astrology-AstrologyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Astrology-AstrologyUITests/Pods-Astrology-AstrologyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Astrology-AstrologyUITests/Pods-Astrology-AstrologyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C03E9E47254745AC00746534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03E9E53254745AC00746534 /* ViewController.swift in Sources */,
+				C03E9E4F254745AC00746534 /* AppDelegate.swift in Sources */,
+				C03E9E51254745AC00746534 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03E9E5D254745AF00746534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03E9E66254745AF00746534 /* AstrologyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03E9E68254745AF00746534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03E9E71254745AF00746534 /* AstrologyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C03E9E63254745AF00746534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C03E9E4A254745AC00746534 /* Astrology */;
+			targetProxy = C03E9E62254745AF00746534 /* PBXContainerItemProxy */;
+		};
+		C03E9E6E254745AF00746534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C03E9E4A254745AC00746534 /* Astrology */;
+			targetProxy = C03E9E6D254745AF00746534 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C03E9E54254745AC00746534 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03E9E55254745AC00746534 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C03E9E59254745AF00746534 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03E9E5A254745AF00746534 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C03E9E73254745AF00746534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C03E9E74254745AF00746534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C03E9E76254745AF00746534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8549B77D8902C471E4EA96F8 /* Pods-Astrology.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A4XRV83B;
+				INFOPLIST_FILE = Astrology/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilkaysever.Astrology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C03E9E77254745AF00746534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FA0F370443F567A3C2F407 /* Pods-Astrology.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A4XRV83B;
+				INFOPLIST_FILE = Astrology/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilkaysever.Astrology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C03E9E79254745AF00746534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE45A5646FC75DDB358E9E7 /* Pods-AstrologyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A4XRV83B;
+				INFOPLIST_FILE = AstrologyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilkaysever.AstrologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astrology.app/Astrology";
+			};
+			name = Debug;
+		};
+		C03E9E7A254745AF00746534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8A3CE560E7FA4F3267151B /* Pods-AstrologyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A4XRV83B;
+				INFOPLIST_FILE = AstrologyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilkaysever.AstrologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astrology.app/Astrology";
+			};
+			name = Release;
+		};
+		C03E9E7C254745AF00746534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0851F0F9CD558D97729E37 /* Pods-Astrology-AstrologyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A4XRV83B;
+				INFOPLIST_FILE = AstrologyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilkaysever.AstrologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astrology;
+			};
+			name = Debug;
+		};
+		C03E9E7D254745AF00746534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E886116AB03CD5590DBE9D /* Pods-Astrology-AstrologyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A4XRV83B;
+				INFOPLIST_FILE = AstrologyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilkaysever.AstrologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astrology;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C03E9E46254745AC00746534 /* Build configuration list for PBXProject "Astrology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03E9E73254745AF00746534 /* Debug */,
+				C03E9E74254745AF00746534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03E9E75254745AF00746534 /* Build configuration list for PBXNativeTarget "Astrology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03E9E76254745AF00746534 /* Debug */,
+				C03E9E77254745AF00746534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03E9E78254745AF00746534 /* Build configuration list for PBXNativeTarget "AstrologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03E9E79254745AF00746534 /* Debug */,
+				C03E9E7A254745AF00746534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03E9E7B254745AF00746534 /* Build configuration list for PBXNativeTarget "AstrologyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03E9E7C254745AF00746534 /* Debug */,
+				C03E9E7D254745AF00746534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C03E9E43254745AC00746534 /* Project object */;
+}
