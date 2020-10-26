@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,8 @@
 		C03E9E5B254745AF00746534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03E9E59254745AF00746534 /* LaunchScreen.storyboard */; };
 		C03E9E66254745AF00746534 /* AstrologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9E65254745AF00746534 /* AstrologyTests.swift */; };
 		C03E9E71254745AF00746534 /* AstrologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9E70254745AF00746534 /* AstrologyUITests.swift */; };
+		C03E9E9A25476F9500746534 /* InfoAstrology.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03E9E9925476F9500746534 /* InfoAstrology.storyboard */; };
+		C03E9E9F25476FC700746534 /* InfoAstrologyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9E9E25476FC700746534 /* InfoAstrologyVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		C03E9E6C254745AF00746534 /* AstrologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstrologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03E9E70254745AF00746534 /* AstrologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrologyUITests.swift; sourceTree = "<group>"; };
 		C03E9E72254745AF00746534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03E9E9925476F9500746534 /* InfoAstrology.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfoAstrology.storyboard; sourceTree = "<group>"; };
+		C03E9E9E25476FC700746534 /* InfoAstrologyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAstrologyVC.swift; sourceTree = "<group>"; };
 		CA7E347E01630648EF3E4CFC /* Pods_Astrology_AstrologyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Astrology_AstrologyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E886116AB03CD5590DBE9D /* Pods-Astrology-AstrologyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astrology-AstrologyUITests.release.xcconfig"; path = "Target Support Files/Pods-Astrology-AstrologyUITests/Pods-Astrology-AstrologyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DFBA9540EE3777C8F648954D /* Pods_AstrologyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstrologyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +115,6 @@
 				1CE45A5646FC75DDB358E9E7 /* Pods-AstrologyTests.debug.xcconfig */,
 				8C8A3CE560E7FA4F3267151B /* Pods-AstrologyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -187,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				C03E9E52254745AC00746534 /* ViewController.swift */,
+				C03E9E9E25476FC700746534 /* InfoAstrologyVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -196,6 +200,7 @@
 			children = (
 				C03E9E54254745AC00746534 /* Main.storyboard */,
 				C03E9E59254745AF00746534 /* LaunchScreen.storyboard */,
+				C03E9E9925476F9500746534 /* InfoAstrology.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -328,6 +333,7 @@
 				C03E9E5B254745AF00746534 /* LaunchScreen.storyboard in Resources */,
 				C03E9E58254745AF00746534 /* Assets.xcassets in Resources */,
 				C03E9E56254745AC00746534 /* Main.storyboard in Resources */,
+				C03E9E9A25476F9500746534 /* InfoAstrology.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C03E9E53254745AC00746534 /* ViewController.swift in Sources */,
+				C03E9E9F25476FC700746534 /* InfoAstrologyVC.swift in Sources */,
 				C03E9E4F254745AC00746534 /* AppDelegate.swift in Sources */,
 				C03E9E51254745AC00746534 /* SceneDelegate.swift in Sources */,
 			);

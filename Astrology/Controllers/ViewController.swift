@@ -9,11 +9,54 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var outerView: UIView!
+    @IBOutlet weak var topImageView: UIImageView!
+    @IBOutlet weak var infoContainerView: UIView!
+    
+    @IBOutlet weak var dayTextField: UITextField!
+    @IBOutlet weak var monthTextField: UITextField!
+    @IBOutlet weak var yearTextField: UITextField!
+    
+    @IBOutlet weak var hourTextField: UITextField!
+    @IBOutlet weak var minTextField: UITextField!
+    
+    @IBOutlet weak var latTextField: UITextField!
+    @IBOutlet weak var lonTextField: UITextField!
+    
+    @IBOutlet weak var nextButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setViews()
     }
-
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
+    func setViews() {
+        outerView.layer.cornerRadius = 40
+        outerView.layer.shadowColor = UIColor.black.cgColor
+        outerView.layer.shadowOffset = .zero
+        outerView.layer.shadowOpacity = 1
+        outerView.backgroundColor = UIColor.white
+        outerView.clipsToBounds = true
+        
+        infoContainerView.layer.cornerRadius = 15.0
+        infoContainerView.layer.shadowColor = UIColor.black.cgColor
+        infoContainerView.layer.shadowOffset = .zero
+        infoContainerView.layer.shadowOpacity = 1
+        infoContainerView.backgroundColor = UIColor.white
+        
+        nextButton.layer.cornerRadius = 8
+    }
+    
+    @IBAction func nextButtonTpped(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "InfoAstrology", bundle: nil)
+        let nextVC = storyboard.instantiateViewController(identifier: "InfoAstrologyVC") as! InfoAstrologyVC
+        //nextVC.modalPresentationStyle = .fullScreen
+        present(nextVC, animated: true, completion: nil)
+    }
 
 }
 
