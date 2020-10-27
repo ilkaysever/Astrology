@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var outerView: UIView!
     @IBOutlet weak var topImageView: UIImageView!
     @IBOutlet weak var infoContainerView: UIView!
@@ -28,6 +28,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setViews()
+        getRequest()
+    }
+    
+    func getRequest() {
+        Services.getAstroDetail { (response) in
+            print(response)
+        } error: { (error) in
+            print(error)
+        }
+        
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -35,14 +45,7 @@ class ViewController: UIViewController {
     }
     
     func setViews() {
-        outerView.layer.cornerRadius = 40
-        outerView.layer.shadowColor = UIColor.black.cgColor
-        outerView.layer.shadowOffset = .zero
-        outerView.layer.shadowOpacity = 1
-        outerView.backgroundColor = UIColor.white
-        outerView.clipsToBounds = true
-        
-        infoContainerView.layer.cornerRadius = 15.0
+        infoContainerView.layer.cornerRadius = 30.0
         infoContainerView.layer.shadowColor = UIColor.black.cgColor
         infoContainerView.layer.shadowOffset = .zero
         infoContainerView.layer.shadowOpacity = 1
@@ -57,6 +60,6 @@ class ViewController: UIViewController {
         //nextVC.modalPresentationStyle = .fullScreen
         present(nextVC, animated: true, completion: nil)
     }
-
+    
 }
 

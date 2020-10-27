@@ -20,6 +20,10 @@
 		C03E9E71254745AF00746534 /* AstrologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9E70254745AF00746534 /* AstrologyUITests.swift */; };
 		C03E9E9A25476F9500746534 /* InfoAstrology.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03E9E9925476F9500746534 /* InfoAstrology.storyboard */; };
 		C03E9E9F25476FC700746534 /* InfoAstrologyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9E9E25476FC700746534 /* InfoAstrologyVC.swift */; };
+		C03E9EA825482AC800746534 /* AstrologyRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9EA725482AC800746534 /* AstrologyRequestModel.swift */; };
+		C03E9EB32548483400746534 /* AstrologyResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9EB22548483400746534 /* AstrologyResponseModel.swift */; };
+		C03E9ED525489D9F00746534 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9ED425489D9F00746534 /* Services.swift */; };
+		C03E9EE02548A4A700746534 /* ResponseErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E9EDF2548A4A700746534 /* ResponseErrorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		C03E9E72254745AF00746534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C03E9E9925476F9500746534 /* InfoAstrology.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfoAstrology.storyboard; sourceTree = "<group>"; };
 		C03E9E9E25476FC700746534 /* InfoAstrologyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAstrologyVC.swift; sourceTree = "<group>"; };
+		C03E9EA725482AC800746534 /* AstrologyRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrologyRequestModel.swift; sourceTree = "<group>"; };
+		C03E9EB22548483400746534 /* AstrologyResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrologyResponseModel.swift; sourceTree = "<group>"; };
+		C03E9ED425489D9F00746534 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		C03E9EDF2548A4A700746534 /* ResponseErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseErrorModel.swift; sourceTree = "<group>"; };
 		CA7E347E01630648EF3E4CFC /* Pods_Astrology_AstrologyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Astrology_AstrologyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E886116AB03CD5590DBE9D /* Pods-Astrology-AstrologyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astrology-AstrologyUITests.release.xcconfig"; path = "Target Support Files/Pods-Astrology-AstrologyUITests/Pods-Astrology-AstrologyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DFBA9540EE3777C8F648954D /* Pods_AstrologyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstrologyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +156,7 @@
 				C03E9E832547463800746534 /* Controllers */,
 				C03E9E842547463F00746534 /* Storyboards */,
 				C03E9E852547464800746534 /* Helpers */,
+				C03E9EA62548289D00746534 /* API */,
 				C03E9E862547464D00746534 /* Assets */,
 				C03E9E5C254745AF00746534 /* Info.plist */,
 			);
@@ -175,6 +184,9 @@
 		C03E9E812547462B00746534 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C03E9EA725482AC800746534 /* AstrologyRequestModel.swift */,
+				C03E9EB22548483400746534 /* AstrologyResponseModel.swift */,
+				C03E9EDF2548A4A700746534 /* ResponseErrorModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,8 +211,8 @@
 			isa = PBXGroup;
 			children = (
 				C03E9E54254745AC00746534 /* Main.storyboard */,
-				C03E9E59254745AF00746534 /* LaunchScreen.storyboard */,
 				C03E9E9925476F9500746534 /* InfoAstrology.storyboard */,
+				C03E9E59254745AF00746534 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -220,6 +232,14 @@
 				C03E9E57254745AF00746534 /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		C03E9EA62548289D00746534 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C03E9ED425489D9F00746534 /* Services.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,9 +481,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03E9EA825482AC800746534 /* AstrologyRequestModel.swift in Sources */,
+				C03E9EB32548483400746534 /* AstrologyResponseModel.swift in Sources */,
 				C03E9E53254745AC00746534 /* ViewController.swift in Sources */,
 				C03E9E9F25476FC700746534 /* InfoAstrologyVC.swift in Sources */,
 				C03E9E4F254745AC00746534 /* AppDelegate.swift in Sources */,
+				C03E9EE02548A4A700746534 /* ResponseErrorModel.swift in Sources */,
+				C03E9ED525489D9F00746534 /* Services.swift in Sources */,
 				C03E9E51254745AC00746534 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

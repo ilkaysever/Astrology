@@ -9,9 +9,13 @@ import UIKit
 
 class InfoAstrologyVC: UIViewController {
     
+    @IBOutlet weak var horoscopesImageView: UIImageView!
+    @IBOutlet weak var horoscopesTitleLabel: UILabel!
+    @IBOutlet weak var horoscopesDesLabel: UILabel!
+    @IBOutlet weak var elementNameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .orange
     }
     
 }

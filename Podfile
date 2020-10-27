@@ -7,6 +7,7 @@ target 'Astrology' do
 
   # Pods for Astrology
 
+  pod 'Moya'
   pod 'Alamofire', '~> 5.2'
   pod 'Kingfisher', '~> 4.0'
 
