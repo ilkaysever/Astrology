@@ -11,19 +11,19 @@ class Services {
     
     private static var baseUrl = "https://json.astrologyapi.com/v1"
     
-    static func getAstroDetail(response: @escaping(AstrologyModel) -> Void, error: @escaping(ErrorModel) -> Void) {
+    static func getAstroDetail(model: AstrologyRequestModel, response: @escaping(AstrologyModel) -> Void, error: @escaping(ErrorModel) -> Void) {
         
         let headers = HTTPHeaders(generateHeader()!)
         var parameters: Parameters?
         
         parameters = [:]
-        parameters!["day"] = 01
-        parameters!["month"] = 01
-        parameters!["year"] = 1993
-        parameters!["hour"] = 00
-        parameters!["min"] = 30
-        parameters!["lat"] = 19.256
-        parameters!["lon"] = 25.256
+        parameters!["day"] = model.day
+        parameters!["month"] = model.month
+        parameters!["year"] = model.year
+        parameters!["hour"] = model.hour
+        parameters!["min"] = model.min
+        parameters!["lat"] = model.lat
+        parameters!["lon"] = model.lon
         parameters!["tzone"] = 5.5
         
         let request = AF.request("\(baseUrl)/astro_details", method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers)

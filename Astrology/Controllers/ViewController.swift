@@ -25,15 +25,27 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var nextButton: UIButton!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setViews()
-        getRequest()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
     func getRequest() {
-        Services.getAstroDetail { (response) in
-            print(response)
+        let model = AstrologyRequestModel(day: Int(dayTextField.text!)!, month: Int(monthTextField.text!)!, year: Int(yearTextField.text!)!, hour: Int(hourTextField.text!)!, min: Int(minTextField.text!)!, lat: Float(latTextField.text!)!, lon: Float(lonTextField.text!))
+        Services.getAstroDetail(model: model) { (astromodel) in
+            self.showSecondController(model: astromodel)
+            print(astromodel)
         } error: { (error) in
             print(error)
         }
@@ -54,11 +66,15 @@ class ViewController: UIViewController {
         nextButton.layer.cornerRadius = 8
     }
     
-    @IBAction func nextButtonTpped(_ sender: Any) {
+    func showSecondController(model: AstrologyModel!) {
         let storyboard = UIStoryboard(name: "InfoAstrology", bundle: nil)
         let nextVC = storyboard.instantiateViewController(identifier: "InfoAstrologyVC") as! InfoAstrologyVC
-        //nextVC.modalPresentationStyle = .fullScreen
-        present(nextVC, animated: true, completion: nil)
+        nextVC.data = model
+        navigationController?.pushViewController(nextVC, animated: true)
+    }
+    
+    @IBAction func nextButtonTpped(_ sender: Any) {
+        getRequest()
     }
     
 }

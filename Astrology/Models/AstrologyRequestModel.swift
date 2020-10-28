@@ -16,16 +16,15 @@ struct AstrologyRequestModel: Codable {
     var min: Int!
     var lat: Float!
     var lon: Float!
-    var tzone: Float!
     
-    init(day: Int, month: Int, year: Int, hour: Int, min: Int, lat: Float, lon: Float!, tzone: Float!) {
+    init(day: Int, month: Int, year: Int, hour: Int, min: Int, lat: Float, lon: Float!) {
         self.day = day
         self.month = month
         self.year = year
+        self.hour = hour
         self.min = min
         self.lat = lat
         self.lon = lon
-        self.tzone = tzone
     }
     
 }
